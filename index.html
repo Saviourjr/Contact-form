@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+ <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+ <div class="container">
+<form >
+  <!--H1-->
+   <h1>Contact Us</h1>
+   <!--Name section-->
+    <div class="Names">
+  <div><label for="name">First Name * </label>  <br> <br>
+<input type="text" id="fname">
+</div> 
+<div class="last"> <label for="name">Last Name * </label> <br><br>
+  <input type="text" id="lname">
+</div>
+<p id="error"> </p> <p id="error2"></p>
+</div> 
+<!--Email-->
+<label for="email" class="email">Email Address *</label> <br> 
+<input type="email" id="email">
+<p id="error3"></p> <br> <br> 
+<!--Query Section-->
+<label for="query">Query type *</label> <br>
+<button id="query" name="query"><input type="radio" name="query" id=""> General Enquiry </button>
+<button id="query" name="query"><input type="radio" name="query" id=""> Support Request </button> <br> <br>
+<!--Message Section-->
+<label for="Message">Message *</label> <br>
+<textarea name="Message" id="message"></textarea> <br> <br>
+<!--Checkbox Section-->
+<div class="check"><input type="checkbox" name="checkbox" id="check"> I consent to beign contacted by the team * <br> <br>
+</div><!--Submit Section--> 
+<button id="Submit">Submit</button>
+</form>
+ </div>
+<script src="Contact-js.js"></script>
+</body>
+</html>

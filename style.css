@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(148, 38%, 91%);
+  color: hsl(186, 15%, 59%);
+  font-size: 16px;
+}
+
+h1{
+  color: hsl(169, 82%, 27%);
+  font-weight: bold;
+}
+.Names{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 1rem;
+ 
+
+}
+.Names input{
+  border-radius: 5px;
+  border: 1px solid hsl(186, 15%, 59%);
+  height: 40px;
+   outline: none;
+  cursor: pointer;
+  width: 250px;
+}
+form{
+  background-color: white;
+  height:fit-content;
+  width: 550px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  
+ 
+}
+
+#email{
+  width: 540px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid hsl(186, 15%, 59%);
+  cursor: pointer;
+ outline: none;
+ margin-top: 10px;
+}
+#query{
+  height: 40px;
+  width: 270px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid hsl(186, 15%, 59%);
+  gap: 20px;
+  cursor: pointer;
+
+}p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: red;
+    
+  }
+#message{
+  height: 100px;
+  width: 540px;
+  margin-top: 10px;
+  border: 1px solid hsl(186, 15%, 59%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#check{
+cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+#Submit  {
+width: 540px;
+height: 40px;
+background-color: hsl(169, 82%, 27%);
+border: 1px solid hsl(169, 82%, 27%);
+border-radius: 5px;
+cursor: pointer;
+color: white;
+}
+#Submit:hover{
+  background-color: hsl(169, 85%, 20%);
+}
+#message:focus{
+outline: none;
+}
+/*MOBILE VIEW*/
+@media screen AND (max-width:480px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(186, 15%, 59%);
+    font-size: 12px;
+  }
+  .Names{
+  display: block;
+    flex-basis: 100%;
+    margin-top: 1rem;
+   
+  
+  }
+  .Names input{
+    border-radius: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+    height: 40px;
+     outline: none;
+    cursor: pointer;
+   
+  }
+  .last{
+    margin-top: 10px;
+  }
+  form{
+    background-color: white;
+    height:fit-content;
+    width: 290px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+   
+  }
+  
+  
+#email{
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid hsl(186, 15%, 59%);
+  cursor: pointer;
+ outline: none;
+ margin-top: 10px;
+}
+#query{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid hsl(186, 15%, 59%);
+  gap: 20px;
+  cursor: pointer;
+
+}
+#message{
+  height: 100px;
+  width: 280px;
+  margin-top: 10px;
+  border: 1px solid hsl(186, 15%, 59%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#check{
+cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+#Submit  {
+width: 280px;
+height: 40px;
+background-color: hsl(169, 82%, 27%);
+border: 1px solid hsl(169, 82%, 27%);
+border-radius: 5px;
+cursor: pointer;
+color: white;
+}
+  
+}
